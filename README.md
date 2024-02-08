@@ -40,19 +40,20 @@
 ## About The Project
 
 Respiratory rate is a well-known acoustic biomarker of the health status of the respiratory system.
-In this repository, we offer a systematic and labelled set of auditory recordings of 30 (15 male, 15 female) subjects, aged between 18 and 60 years-old, breathing at five different respiratory rates, organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned in front of the device at a distance of 20 and 40 cm.<br>
+In this repository, we offer a systematic and labelled set of auditory recordings of 30 (15 male, 15 female) subjects, aged between 18 and 60 years-old, breathing at five different respiratory rates, organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned in front of the device at a distance of 20 and 40 cm. Each recording takes 1 minute, and was registered at 44.1 kHz in stereo.<br>
 <img src="./image/figure1.jpg" alt="Figure1" style="width: 50%; height: 50%;">
+<br>
 Figure 1: placement of the subjects during the database recording process.
+<br>
+Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the device between 20 and 40 cm. <br>
+Additionally, considering that real-world scenarios involve not only respiratory signals, the recorded signals were mixed with noise signals that may be present in hospitals or at home, ranging in signal-to-noise ratio (SNR) between 6, 0 and -6 dB.
+<br>
 
-
-Each recording takes 1 minute, and was registered at 4500 Hz, one channel, 32-bit resolution.
-Adsitional information about the health history of each subject is also provided, along with some other demographic data as heigh and weight.
-
-The main objective of the "Respiratory Rate universities of Jaén and Oviedo" (RRuJO) dataset is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
+The main objective of the Breath MY dataset is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
 
 The database is organized in folders according to the following structure:
 <ul>
-  <li>RRinervasO: recordings with the designed stethoscope (ESP32 based, Littman bell, INMP441 microphone)</li>
+  <li>D_A: recordings with the designed stethoscope (ESP32 based, Littman bell, INMP441 microphone)</li>
   <ul>
   <li>Folder named '8': recordings at 8 bpm</li>
   <li>Folder named '10': recordings at 10 bpm</li>
@@ -60,7 +61,23 @@ The database is organized in folders according to the following structure:
   <li>Folder named '18': recordings at 18 bpm</li>
   <li>Folder named '20': recordings at 20 bpm</li>
 </ul> 
-  <li>ThinklabsO: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+  <li>D_B: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+  <ul>
+  <li>Folder named '8': recordings at 8 bpm</li>
+  <li>Folder named '10': recordings at 10 bpm</li>
+  <li>Folder named '12': recordings at 12 bpm</li>
+  <li>Folder named '18': recordings at 18 bpm</li>
+  <li>Folder named '20': recordings at 20 bpm</li>
+</ul> 
+    <li>D_C: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+  <ul>
+  <li>Folder named '8': recordings at 8 bpm</li>
+  <li>Folder named '10': recordings at 10 bpm</li>
+  <li>Folder named '12': recordings at 12 bpm</li>
+  <li>Folder named '18': recordings at 18 bpm</li>
+  <li>Folder named '20': recordings at 20 bpm</li>
+</ul> 
+    <li>D_D: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
   <ul>
   <li>Folder named '8': recordings at 8 bpm</li>
   <li>Folder named '10': recordings at 10 bpm</li>
