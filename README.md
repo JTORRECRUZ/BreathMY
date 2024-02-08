@@ -13,8 +13,6 @@
   <p align="center">
     An open-source audio database for respiratory rate (RR) estimation research
     <br />
-    <a href="https://github.com/QHPC-SP-Research-Lab/Respiratory-Rate-Database"><strong>Explore the docs »</strong></a>
-    <br />
   </p>
 </div>
 
