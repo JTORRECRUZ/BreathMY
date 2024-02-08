@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/QHPC-SP-Research-Lab/Respiratory-Rate-Database/">
-    <img src="./image/icono.jpeg" alt="Logo" width="80" height="80">
+    <img src="./image/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RRuJO database</h3>
@@ -15,8 +15,6 @@
     <br />
     <a href="https://github.com/QHPC-SP-Research-Lab/Respiratory-Rate-Database"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/QHPC-SP-Research-Lab/Respiratory-Rate-Database/blob/main/Metadata.md">View Metadata</a>
   </p>
 </div>
 
