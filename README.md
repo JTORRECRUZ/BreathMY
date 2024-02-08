@@ -97,7 +97,7 @@ The format and the temporal signature of each audio file presents the following 
 <RR value (two digits)>RR_<distance between the subject's mouth and the device (two digits)>cm_<year (four digits)>_<month (two digits)>_<day (two digits)>_<subject (letter)>
 <br>
 <br />
-For example, for the audio file denoted as '18<strong>RR_</strong>20cm<strong>_</strong>2023_02_20_A' the data are as follows:
+<p>For example, for the audio file denoted as '18<strong>RR_</strong>20cm<strong>_</strong>2023<strong>_</strong>02<strong>_</strong>20<strong>_</strong>A' the data are as follows:</p>
  <ul>
   <li>RR value (two digits): 18</li>
   <li>distance between the subject's mouth and the device (two digits): 20</li>
