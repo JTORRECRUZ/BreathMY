@@ -46,7 +46,9 @@ In this repository, we offer a systematic and labelled set of auditory recording
 Figure 1: placement of the subjects during the database recording process.
 <br>
 <br />
-Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the device between 20 and 40 cm. <br>
+Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the device between 20 and 40 cm. 
+<br>
+<br />
 Additionally, considering that real-world scenarios involve not only respiratory signals, the recorded signals were mixed with noise signals that may be present in hospitals or at home, ranging in signal-to-noise ratio (SNR) between 6, 0 and -6 dB.
 <br>
 <br />
@@ -55,37 +57,37 @@ The main objective of the Breath MY dataset is to provide a set of reliably labe
 <br />
 The database is organized in folders according to the following structure:
 <ul>
-  <li>D_A: recordings with the designed stethoscope (ESP32 based, Littman bell, INMP441 microphone)</li>
+  <li>D_A: original recordings without noise</li>
   <ul>
-  <li>Folder named '8': recordings at 8 bpm</li>
-  <li>Folder named '10': recordings at 10 bpm</li>
-  <li>Folder named '12': recordings at 12 bpm</li>
-  <li>Folder named '18': recordings at 18 bpm</li>
-  <li>Folder named '20': recordings at 20 bpm</li>
+  <li>Folder named '10': recordings at 8 bpm</li>
+  <li>Folder named '12': recordings at 10 bpm</li>
+  <li>Folder named '18': recordings at 12 bpm</li>
+  <li>Folder named '20': recordings at 18 bpm</li>
+  <li>Folder named '24': recordings at 20 bpm</li>
 </ul> 
-  <li>D_B: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+  <li>D_B: recordings mixed with noise (SNR=-6 dB)</li>
   <ul>
-  <li>Folder named '8': recordings at 8 bpm</li>
-  <li>Folder named '10': recordings at 10 bpm</li>
-  <li>Folder named '12': recordings at 12 bpm</li>
-  <li>Folder named '18': recordings at 18 bpm</li>
-  <li>Folder named '20': recordings at 20 bpm</li>
+  <li>Folder named '10': recordings at 8 bpm</li>
+  <li>Folder named '12': recordings at 10 bpm</li>
+  <li>Folder named '18': recordings at 12 bpm</li>
+  <li>Folder named '20': recordings at 18 bpm</li>
+  <li>Folder named '24': recordings at 20 bpm</li>
 </ul> 
-    <li>D_C: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+    <li>D_C: recordings mixed with noise (SNR=0 dB)</li>
   <ul>
-  <li>Folder named '8': recordings at 8 bpm</li>
-  <li>Folder named '10': recordings at 10 bpm</li>
-  <li>Folder named '12': recordings at 12 bpm</li>
-  <li>Folder named '18': recordings at 18 bpm</li>
-  <li>Folder named '20': recordings at 20 bpm</li>
+  <li>Folder named '10': recordings at 8 bpm</li>
+  <li>Folder named '12': recordings at 10 bpm</li>
+  <li>Folder named '18': recordings at 12 bpm</li>
+  <li>Folder named '20': recordings at 18 bpm</li>
+  <li>Folder named '24': recordings at 20 bpm</li>
 </ul> 
-    <li>D_D: recordings with the commercial <a href="https://www.thinklabs.com/">Thinklabs stethoscope</a></li>
+    <li>D_D: recordings mixed with noise (SNR=6 dB)</li>
   <ul>
-  <li>Folder named '8': recordings at 8 bpm</li>
-  <li>Folder named '10': recordings at 10 bpm</li>
-  <li>Folder named '12': recordings at 12 bpm</li>
-  <li>Folder named '18': recordings at 18 bpm</li>
-  <li>Folder named '20': recordings at 20 bpm</li>
+  <li>Folder named '10': recordings at 8 bpm</li>
+  <li>Folder named '12': recordings at 10 bpm</li>
+  <li>Folder named '18': recordings at 12 bpm</li>
+  <li>Folder named '20': recordings at 18 bpm</li>
+  <li>Folder named '24': recordings at 20 bpm</li>
 </ul> 
 </ul> 
 
