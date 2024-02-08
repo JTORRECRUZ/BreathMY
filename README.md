@@ -59,35 +59,35 @@ The database is organized in folders according to the following structure:
 <ul>
   <li>D_A: original recordings without noise</li>
   <ul>
-  <li>Folder named '10': recordings at 8 bpm</li>
-  <li>Folder named '12': recordings at 10 bpm</li>
-  <li>Folder named '18': recordings at 12 bpm</li>
-  <li>Folder named '20': recordings at 18 bpm</li>
-  <li>Folder named '24': recordings at 20 bpm</li>
+  <li>Folder named '10RR': recordings at 8 bpm</li>
+  <li>Folder named '12RR': recordings at 10 bpm</li>
+  <li>Folder named '18RR': recordings at 12 bpm</li>
+  <li>Folder named '20RR': recordings at 18 bpm</li>
+  <li>Folder named '24RR': recordings at 20 bpm</li>
 </ul> 
   <li>D_B: recordings mixed with noise (SNR=-6 dB)</li>
   <ul>
-  <li>Folder named '10': recordings at 8 bpm</li>
-  <li>Folder named '12': recordings at 10 bpm</li>
-  <li>Folder named '18': recordings at 12 bpm</li>
-  <li>Folder named '20': recordings at 18 bpm</li>
-  <li>Folder named '24': recordings at 20 bpm</li>
+  <li>Folder named '10RR': recordings at 8 bpm</li>
+  <li>Folder named '12RR': recordings at 10 bpm</li>
+  <li>Folder named '18RR': recordings at 12 bpm</li>
+  <li>Folder named '20RR': recordings at 18 bpm</li>
+  <li>Folder named '24RR': recordings at 20 bpm</li>
 </ul> 
     <li>D_C: recordings mixed with noise (SNR=0 dB)</li>
   <ul>
-  <li>Folder named '10': recordings at 8 bpm</li>
-  <li>Folder named '12': recordings at 10 bpm</li>
-  <li>Folder named '18': recordings at 12 bpm</li>
-  <li>Folder named '20': recordings at 18 bpm</li>
-  <li>Folder named '24': recordings at 20 bpm</li>
+  <li>Folder named '10RR': recordings at 8 bpm</li>
+  <li>Folder named '12RR': recordings at 10 bpm</li>
+  <li>Folder named '18RR': recordings at 12 bpm</li>
+  <li>Folder named '20RR': recordings at 18 bpm</li>
+  <li>Folder named '24RR': recordings at 20 bpm</li>
 </ul> 
     <li>D_D: recordings mixed with noise (SNR=6 dB)</li>
   <ul>
-  <li>Folder named '10': recordings at 8 bpm</li>
-  <li>Folder named '12': recordings at 10 bpm</li>
-  <li>Folder named '18': recordings at 12 bpm</li>
-  <li>Folder named '20': recordings at 18 bpm</li>
-  <li>Folder named '24': recordings at 20 bpm</li>
+  <li>Folder named '10RR': recordings at 8 bpm</li>
+  <li>Folder named '12RR': recordings at 10 bpm</li>
+  <li>Folder named '18RR': recordings at 12 bpm</li>
+  <li>Folder named '20RR': recordings at 18 bpm</li>
+  <li>Folder named '24RR': recordings at 20 bpm</li>
 </ul> 
 </ul> 
 
