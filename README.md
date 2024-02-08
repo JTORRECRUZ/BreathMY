@@ -49,9 +49,10 @@ Figure 1: placement of the subjects during the database recording process.
 Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the device between 20 and 40 cm. <br>
 Additionally, considering that real-world scenarios involve not only respiratory signals, the recorded signals were mixed with noise signals that may be present in hospitals or at home, ranging in signal-to-noise ratio (SNR) between 6, 0 and -6 dB.
 <br>
-
+<br />
 The main objective of the Breath MY dataset is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
-
+<br>
+<br />
 The database is organized in folders according to the following structure:
 <ul>
   <li>D_A: recordings with the designed stethoscope (ESP32 based, Littman bell, INMP441 microphone)</li>
