@@ -92,7 +92,7 @@ The database is organized in folders according to the following structure:
 </ul> 
 
 Inside each subfolder you will find 60 recordings, 2 for each subject, varying the distance between the subject's mouth and the device between 20 and 40 cm. <br>
-The format corresponding to the name of each audio file presents the following form: <br>
+The format and the temporal signature of each audio file presents the following form: <br>
 <RR value (two digits)>RR_<distance between the subject's mouth and the device (two digits)>cm_<year (four digits)>_<month (two digits)>_<day (two digits)>_<subject (letter)>
 
 
