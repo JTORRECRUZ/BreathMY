@@ -92,9 +92,20 @@ The database is organized in folders according to the following structure:
 </ul> 
 
 Inside each subfolder you will find 60 recordings, 2 for each subject, varying the distance between the subject's mouth and the device between 20 and 40 cm. <br>
+<br />
 The format and the temporal signature of each audio file presents the following form: <br>
 <RR value (two digits)>RR_<distance between the subject's mouth and the device (two digits)>cm_<year (four digits)>_<month (two digits)>_<day (two digits)>_<subject (letter)>
-
+<br>
+<br />
+For example, for the audio file denoted as 18RR_20cm_2023_02_20_A the data are as follows:
+ <ul>
+  <li>RR value (two digits): 18</li>
+  <li>distance between the subject's mouth and the device (two digits): 20</li>
+  <li>year (four digits): 2023</li>
+  <li>month (two digits): 02</li>
+  <li>day (two digits): 20</li>
+  <li>subject (letter): A</li>
+</ul> 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
