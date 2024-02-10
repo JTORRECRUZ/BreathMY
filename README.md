@@ -8,7 +8,7 @@
     <img src="./image/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Breath MY database</h3>
+  <h3 align="center">BreathMY database</h3>
 
   <p align="center">
     An open-source audio database for respiratory rate (RR) estimation research
