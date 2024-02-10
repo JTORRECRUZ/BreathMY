@@ -39,24 +39,25 @@
 ## About The Database
 
 Respiratory rate is a well-known acoustic biomarker of the health status of the respiratory system.
-In this repository, we offer a systematic and labelled set of auditory recordings of 30 (15 male, 15 female) subjects, aged between 18 and 60 years-old, breathing at five different respiratory rates, organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned in front of the device at a distance of 20 and 40 cm. Each recording takes 1 minute, and was registered at 44.1 kHz in stereo.<br>
+In this repository, we offer a systematic and labelled set of auditory recordings of 30 (15 male, 15 female) subjects, aged between 18 and 60 years-old, breathing at five different respiratory rates (10, 12, 18, 20 and 24), organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned  upright facing
+the smartphone at distances of 20 and 40 cm. Each recording takes 1 minute, and was registered at 44.1 kHz in stereo.<br>
 <img src="./image/figure1.jpg" alt="Figure1" style="width: 50%; height: 50%;">
 <br>
 Figure 1: placement of the subjects during the database recording process.
 <br>
 <br />
-Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the device between 20 and 40 cm. 
+Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the smartphone between 20 and 40 cm. 
 <br>
 <br />
 Additionally, considering that real-world scenarios involve not only respiratory signals, the recorded signals were mixed with noise signals that may be present in hospitals or at home, ranging in signal-to-noise ratio (SNR) between 6, 0 and -6 dB.
 <br>
 <br />
-The main objective of the Breath MY dataset is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
+The main objective of the BREATHMY database is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
 <br>
 <br />
-The database is organized in folders according to the following structure:
+The BREATHMY database is organized in sets according to the following structure:
 <ul>
-  <li>D_A: original recordings without noise</li>
+  <li>D_A: original recordings without without any noise contamination</li>
   <ul>
   <li>Folder named '10RR': recordings at 10 bpm</li>
   <li>Folder named '12RR': recordings at 12 bpm</li>
@@ -90,7 +91,7 @@ The database is organized in folders according to the following structure:
 </ul> 
 </ul> 
 
-Inside each subfolder you will find 60 recordings, 2 for each subject, varying the distance between the subject's mouth and the device between 20 and 40 cm. <br>
+Inside each set you will find 60 recordings, 2 for each subject, varying the distance between the subject's mouth and the smartphone between 20 and 40 cm. <br>
 <br />
 The format and the temporal signature of each audio file presents the following form: <br>
 <RR value (two digits)>RR_<distance between the subject's mouth and the device (two digits)>cm_<year (four digits)>_<month (two digits)>_<day (two digits)>_<subject (letter)>
@@ -121,9 +122,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 <a name="contact"></a>
 ## Contact
-
 Juan de la Torre Cruz (jtorre@ujaen.es)
-
 Francisco Jesús Cañadas Quesada (fcanadas@ujaen.es)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
