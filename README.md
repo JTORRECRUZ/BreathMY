@@ -123,6 +123,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <a name="contact"></a>
 ## Contact
 Juan de la Torre Cruz (jtorre@ujaen.es)
+<br>
 Francisco Jesús Cañadas Quesada (fcanadas@ujaen.es)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
