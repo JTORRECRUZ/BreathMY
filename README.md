@@ -38,26 +38,25 @@
 <a name="about-the-database"></a>
 ## About The Database
 
-Respiratory rate is a well-known acoustic biomarker of the health status of the respiratory system.
-In this repository, we offer a systematic and labelled database of auditory recordings of 30 (15 male, 15 female) subjects, aged between 18 and 60 years-old, breathing at five different respiratory rates (10, 12, 18, 20 and 24), organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned  upright facing
+Respiratory rate (RR) is a well-known acoustic biomarker of the health status of the respiratory system.
+In this repository, we offer a systematic and labelled database of auditory recordings of 30 (15 male, 15 female) healthy subjects, aged between 18 and 60 years-old, breathing at five different RRs (10, 12, 18, 20 and 24), organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned upright facing
 the smartphone at distances of 20 and 40 cm. Each recording takes 1 minute, and was registered at 8 kHz in mono.<br><br>
   
 <img src="./image/bbdd.jpeg" alt="Figure1" style="display: block; margin: 0 auto; width: 60%; height: 60%;">
 Figure 1: Some participants in the recording session at the research
 laboratory at the Superior Polytechnic School of Linares.<br><br>
 
-Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 breaths per minute (bpm), and changing the distance between the participant's mouth and the smartphone between 20 and 40 cm. 
+Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 bpm, and changing the distance between the participant's mouth and the smartphone between 20 and 40 cm. 
 <br>
 <br />
-Additionally, considering that real-world scenarios involve not only respiratory signals, the recorded signals were mixed with noise signals that may be present in hospitals or at home, ranging in signal-to-noise ratio (SNR) between 6, 0 and -6 dB.
-<br>
+To simulate realistic environments, the set D_A was intentionally mixed with sounds emitted by a television newcast, as it represents a common auditory interference encountered in households or even hospital rooms. This process resulted in the creation of three distinct sets: D_B, D_C, and D_D. Each set corresponds to a specific signal-to-noise ratio (SNR) level, namely -6dB, 0dB, and 6dB, respectively.
 <br />
-The main objective of the BreathMY database is to provide a set of reliably labeled sound signals at different respiratory rates so that they can be used by researchers to evaluate different algorithms applied to respiratory rate estimation from the analysis of sound respiratory signals.
+The main objective of the BreathMY database is to provide a set of reliably labeled sound signals at different RRs so that they can be used by researchers to evaluate different algorithms applied to RR estimation from the analysis of sound respiratory signals.
 <br>
 <br />
 The BreathMY database comprises a total of 1200 recordings divided into four sets of sounds (300 recordings for each set) according to the following structure:
 <ul>
-  <li>D_A: original recordings without without any noise contamination</li>
+  <li>D_A: original recordings without any noise contamination</li>
   <ul>
   <li>Folder named '10RR': recordings at 10 bpm</li>
   <li>Folder named '12RR': recordings at 12 bpm</li>
