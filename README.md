@@ -42,9 +42,10 @@ Respiratory rate (RR) is a well-known acoustic biomarker of the health status of
 In this repository, we offer a systematic and labelled database of auditory recordings of 30 (15 male, 15 female) healthy subjects, aged between 18 and 60 years-old, breathing at five different RRs (10, 12, 18, 20 and 24), organized by breaths per minute (bpm), captured with a conventional smartphone. As shown in Figure 1, during the recording sessions, subjects were positioned upright facing
 the smartphone at distances of 20 and 40 cm. Each recording takes 1 minute, and was registered at 8 kHz in mono.<br><br>
   
-<img src="./image/bbdd.jpeg" alt="Figure1" style="display: block; margin: 0 auto; width: 60%; height: 60%;">
-Figure 1: Some participants in the recording session at the research
-laboratory at the Superior Polytechnic School of Linares.<br><br>
+<div style="text-align: center;">
+    <img src="./image/bbdd.jpeg" alt="Figure1" style="max-width: 70%; height: 80%;">
+    <p> Figure 1: Some participants in the recording session at the research laboratory at the Superior Polytechnic School of Linares.</p>
+</div><br>
 
 Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 bpm, and changing the distance between the participant's mouth and the smartphone between 20 and 40 cm. 
 <br>
