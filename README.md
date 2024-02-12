@@ -49,8 +49,8 @@ laboratory at the Superior Polytechnic School of Linares.<br><br>
 Using a pre-recording training process, each subject was trained by means of an audio-visual tool to ensure a uniform temporal rhythmic sequence, i.e. a constant RR during each 1-minute recording session. For each subject, 10 recordings were performed, varying the RR between 10, 12, 18, 20 and 24 bpm, and changing the distance between the participant's mouth and the smartphone between 20 and 40 cm. 
 <br>
 <br />
-To simulate realistic environments, the set D_A was intentionally mixed with sounds emitted by a television newcast, as it represents a common auditory interference encountered in households or even hospital rooms. This process resulted in the creation of three distinct sets: D_B, D_C, and D_D. Each set corresponds to a specific signal-to-noise ratio (SNR) level, namely -6dB, 0dB, and 6dB, respectively.
-<br />
+To simulate realistic environments, the dataset D_A, containing 300 respiratory sound signals without any noise contamination, was intentionally mixed with sounds emitted by a television newscast, as it represents a common auditory interference encountered in households or even hospital rooms. This process resulted in the creation of three distinct sets: D_B, D_C, and D_D. Each set corresponds to a specific signal-to-noise ratio (SNR) level, namely -6dB, 0dB, and 6dB, respectively.
+<br><br />
 The main objective of the BreathMY database is to provide a set of reliably labeled sound signals at different RRs so that they can be used by researchers to evaluate different algorithms applied to RR estimation from the analysis of sound respiratory signals.
 <br>
 <br />
@@ -63,6 +63,7 @@ The BreathMY database comprises a total of 1200 recordings divided into four set
   <li>Folder named '18RR': recordings at 18 bpm</li>
   <li>Folder named '20RR': recordings at 20 bpm</li>
   <li>Folder named '24RR': recordings at 24 bpm</li>
+    <br>
 </ul> 
   <li>D_B: recordings mixed with noise (SNR=-6 dB)</li>
   <ul>
@@ -71,6 +72,7 @@ The BreathMY database comprises a total of 1200 recordings divided into four set
   <li>Folder named '18RR': recordings at 18 bpm</li>
   <li>Folder named '20RR': recordings at 20 bpm</li>
   <li>Folder named '24RR': recordings at 24 bpm</li>
+    <br>
 </ul> 
     <li>D_C: recordings mixed with noise (SNR=0 dB)</li>
   <ul>
@@ -79,6 +81,7 @@ The BreathMY database comprises a total of 1200 recordings divided into four set
   <li>Folder named '18RR': recordings at 18 bpm</li>
   <li>Folder named '20RR': recordings at 20 bpm</li>
   <li>Folder named '24RR': recordings at 24 bpm</li>
+    <br>
 </ul> 
     <li>D_D: recordings mixed with noise (SNR=6 dB)</li>
   <ul>
@@ -87,8 +90,8 @@ The BreathMY database comprises a total of 1200 recordings divided into four set
   <li>Folder named '18RR': recordings at 18 bpm</li>
   <li>Folder named '20RR': recordings at 20 bpm</li>
   <li>Folder named '24RR': recordings at 24 bpm</li>
-</ul> 
-</ul> 
+    <br>
+</ul>
 
 Inside each set you will find 60 recordings, 2 for each subject, varying the distance between the subject's mouth and the smartphone between 20 and 40 cm. <br>
 <br />
