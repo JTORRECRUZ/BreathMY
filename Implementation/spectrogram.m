@@ -2,7 +2,7 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %%                               Spectrogram
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-%   Authors:   Francisco Jesus Canadas Quesada Juan de la Torre Cruz
+%   Authors:   Francisco Jesus Canadas Quesada 
 %              Juan de la Torre Cruz
 %              Alejandro Antonio Salvador Navarro
 %
