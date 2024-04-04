@@ -2,7 +2,7 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %%                            Training signal
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-%   Authors:   Francisco Jesus Canadas Quesada 
+%   Authors:   Francisco Jesus Canadas Quesada
 %              Juan de la Torre Cruz
 %              Alejandro Antonio Salvador Navarro
 %
@@ -63,24 +63,24 @@ for i = 1:length(files)
         numW = (Y{i}./(L))*transpose(H);
         denW = ((L).^0)*transpose(H); 
         W = W.*(numW./denW); 
-        L = W*A; 
+        L = W*H; 
     
         % Update A
-        numH = transpose(W)*(Y{i}./(L)); 
-        denH = transpose(W)*((L).^0); 
-        A = A.*(numH./denH); 
+        numA = transpose(W)*(Y{i}./(L)); 
+        denA = transpose(W)*((L).^0); 
+        H = H.*(numA./denA); 
         L = W*H; 
     
         div = Y{i}.*log10(Y{i}./(L))-Y{i}+(L); 
-        D(j) = sum(div(:)); % Global objective function
+        DK(j) = sum(div(:)); % Global objective function
     end
 
     Wr{i} = W; % Store learned W matrix
-    Hr{i} = H; % Store learned A matrix
+    Ar{i} = H; % Store learned A matrix
     
 end
 
 filename = sprintf(['Wr_K' num2str(K) '.mat']); save(filename, 'Wr'); 
-filename = sprintf(['Ar_K' num2str(K) '.mat']); save(filename, 'Hr'); 
+filename = sprintf(['Ar_K' num2str(K) '.mat']); save(filename, 'Ar'); 
 
 end
