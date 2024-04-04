@@ -2,9 +2,9 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %%                            Proposed method 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-%    Authors:  Francisco Jesus Canadas Quesada 
+%    Authors:  Alejandro Antonio Salvador Navarro  
 %              Juan de la Torre Cruz
-%              Alejandro Antonio Salvador Navarro
+%              Francisco Jesus Canadas Quesada 
 %
 %   Reference: Respiratory rate estimation applying non-negative
 %              matrix partial co-factorization from breath sounds
