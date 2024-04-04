@@ -58,6 +58,6 @@ Alejandro Antonio Salvador Navarro (aasn0001@red.ujaen.es)
 <!-- CITING -->
 <a name="citing"></a>
 ## Citing
-When using this dataset please cite the following publication “Respiratory rate estimation applying non-negative matrix partial co-factorization from breath sounds” as the source.
+When using this dataset please cite the following publication “Respiratory rate estimation applying non-negative matrix partial co-factorization from breath sounds, 22nd IEEE Mediterranean Electrotechnical Conference (MELECON), 2024”,  as the source.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
