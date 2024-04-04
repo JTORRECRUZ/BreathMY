@@ -130,7 +130,6 @@ Alejandro Antonio Salvador Navarro (aasn0001@red.ujaen.es)
 Juan de la Torre Cruz (jtorre@ujaen.es)
 <br>
 Francisco Jesús Cañadas Quesada (fcanadas@ujaen.es)
-<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,6 +144,6 @@ When using this dataset please cite the following publication “Respiratory rat
 <a name="acknowledgments"></a>
 ## Acknowledgments
 
-This work has been supported by the grant PID2020-119082RB funded by MICIU/AEI/10.13039/501100011033.} Furthermore, the authors would like to thank to both the academic and local communities for their invaluable support throughout the execution of this study. Special appreciation is extended to the University of Jaen, with particular recognition of the Superior Polytechnic School of Linares, for their assistance in facilitating this research endeavor.
+This work has been supported by the grant PID2020-119082RB funded by MICIU/AEI/10.13039/501100011033. Furthermore, the authors would like to thank to both the academic and local communities for their invaluable support throughout the execution of this study. Special appreciation is extended to the University of Jaen, with particular recognition of the Superior Polytechnic School of Linares, for their assistance in facilitating this research endeavor. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
