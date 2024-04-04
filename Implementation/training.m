@@ -55,32 +55,32 @@ for i = 1:length(files)
     Y{i} = Y{i} / (sum(sum(Y{i}))/F*T); 
 
     W = rand(F,K); 
-    A = rand(K,T); 
-    L = W*A; 
+    H = rand(K,T); 
+    L = W*H; 
     
     for j = 1:nIter
         % Update W
-        numW = (Y{i}./(L))*transpose(A);
-        denW = ((L).^0)*transpose(A); 
+        numW = (Y{i}./(L))*transpose(H);
+        denW = ((L).^0)*transpose(H); 
         W = W.*(numW./denW); 
         L = W*A; 
     
         % Update A
-        numA = transpose(W)*(Y{i}./(L)); 
-        denA = transpose(W)*((L).^0); 
-        A = A.*(numA./denA); 
-        L = W*A; 
+        numH = transpose(W)*(Y{i}./(L)); 
+        denH = transpose(W)*((L).^0); 
+        A = A.*(numH./denH); 
+        L = W*H; 
     
         div = Y{i}.*log10(Y{i}./(L))-Y{i}+(L); 
-        DK(j) = sum(div(:)); % Global objective function
+        D(j) = sum(div(:)); % Global objective function
     end
 
     Wr{i} = W; % Store learned W matrix
-    Ar{i} = A; % Store learned A matrix
+    Hr{i} = H; % Store learned A matrix
     
 end
 
 filename = sprintf(['Wr_K' num2str(K) '.mat']); save(filename, 'Wr'); 
-filename = sprintf(['Ar_K' num2str(K) '.mat']); save(filename, 'Ar'); 
+filename = sprintf(['Ar_K' num2str(K) '.mat']); save(filename, 'Hr'); 
 
 end
