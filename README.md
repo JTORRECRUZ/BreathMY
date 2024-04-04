@@ -125,11 +125,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 <a name="contact"></a>
 ## Contact
+Alejandro Antonio Salvador Navarro (aasn0001@red.ujaen.es)
+<br>
 Juan de la Torre Cruz (jtorre@ujaen.es)
 <br>
 Francisco Jesús Cañadas Quesada (fcanadas@ujaen.es)
 <br>
-Alejandro Antonio Salvador Navarro (aasn0001@red.ujaen.es)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
