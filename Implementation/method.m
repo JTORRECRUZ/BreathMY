@@ -2,7 +2,7 @@
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 %%                            Proposed method 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-%    Authors:  Alejandro Antonio Salvador Navarro  
+%   Authors:   Alejandro Antonio Salvador Navarro  
 %              Juan de la Torre Cruz
 %              Francisco Jesus Canadas Quesada 
 %
