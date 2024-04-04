@@ -65,10 +65,10 @@ for i = 1:length(files)
         W = W.*(numW./denW); 
         L = W*H; 
     
-        % Update A
-        numA = transpose(W)*(Y{i}./(L)); 
-        denA = transpose(W)*((L).^0); 
-        H = H.*(numA./denA); 
+        % Update H
+        numH = transpose(W)*(Y{i}./(L)); 
+        denH = transpose(W)*((L).^0); 
+        H = H.*(numH./denH); 
         L = W*H; 
     
         div = Y{i}.*log10(Y{i}./(L))-Y{i}+(L); 
@@ -76,7 +76,7 @@ for i = 1:length(files)
     end
 
     Wr{i} = W; % Store learned W matrix
-    Ar{i} = H; % Store learned A matrix
+    Ar{i} = H; % Store learned H matrix
     
 end
 
