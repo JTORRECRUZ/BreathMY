@@ -72,7 +72,7 @@ for i = 1:length(files)
         L = W*H; 
     
         div = Y{i}.*log10(Y{i}./(L))-Y{i}+(L); 
-        DK(j) = sum(div(:)); % Global objective function
+        D(j) = sum(div(:)); % Global objective function
     end
 
     Wr{i} = W; % Store learned W matrix
