@@ -10,7 +10,7 @@
 %              matrix partial co-factorization from breath sounds
 % ---------------------------------------------------------------------------
 % Inputs:
-%   fs: Sampling frequency
+%   fs: Sampling rate
 %   K: Input signal
 %   N: Length of the window
 %   S: Overlap between consecutive windows
