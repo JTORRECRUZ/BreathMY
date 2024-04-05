@@ -10,7 +10,7 @@
 %              matrix partial co-factorization from breath sounds
 % ---------------------------------------------------------------------------
 % Inputs:
-%   fs: Sampling frequency
+%   fs: Sampling rate
 %   N: Samples of Hanning window
 %   S: Overlap between consecutive windows
 %   Sources: Number of respiratory recordings for training signal
